@@ -25,3 +25,13 @@ button {
     text-align: center;
 }
 
+.add{
+    width: 5%;
+    float: right;
+    height: 2rem;
+}
+
+.write{
+    width: 92%;
+    height: 1.75rem;
+}
