@@ -1,9 +1,9 @@
-body{
+body {
     background-color: #4e15e9;
     box-sizing: border-box;
 }
 
-h1{
+h1 {
     text-align: center;
     color: #ffffff;
 }
@@ -13,7 +13,7 @@ button {
     border: 0.1rem;
 }
 
-.frame{
+.frame {
     background-color: #eee8f8;
     position: absolute;
     left: 25%;
@@ -21,17 +21,46 @@ button {
     padding: 1rem;
 }
 
-.tex{
+.tex {
     text-align: center;
 }
 
-.add{
+.add {
     width: 5%;
     float: right;
     height: 2rem;
 }
 
-.write{
+.write {
     width: 92%;
     height: 1.75rem;
+}
+
+.list {
+    padding: 1rem;
+}
+
+.doneit {
+    padding: 1rem;
+}
+
+.list-item {
+    background-color: #a7a6a6;
+    color: #ffffff;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.delete {
+    display: none;
+    background-color: #a7a6a6;
+    color: #a7a6a6;
+    float: right;
+}
+
+.delete:hover {
+    display: block;
+    background-color: #08068d;
+    color: #ffffff;
+    float: right;
 }
