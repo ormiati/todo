@@ -4,8 +4,12 @@ const input = document.querySelector('.write');
 const add = document.querySelector('.add'); 
 const list = document.querySelector('.list');
 const done = document.querySelector('.doneit');
-const tex = document.querySelector('.tex')
+const tex = document.querySelector('.tex');
+const date = document.querySelector('.date');
 let jel = 1;
+
+const datum = new Date();
+date.innerHTML = datum;
 
 const deleteStorage = (id) => {
     document.querySelector(`[data-id="${id}"]`).parentElement.remove();
@@ -53,6 +57,10 @@ Object.keys(localStorage).forEach((key) => {
             jel +=1;
         }
 });
+
+
+   
+
 
 const addListener = () => add.addEventListener('click', addStorage);
 
